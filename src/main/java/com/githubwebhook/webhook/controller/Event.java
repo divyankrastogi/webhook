@@ -52,6 +52,6 @@ public class Event {
         } catch (MailException mailException) {
             System.out.println(mailException);
         }
-        return "Congratulations! Your mail has been sent to the user.";
+        return "Congratulations! Your mail has been sent to the concerned user";
     }
 }
