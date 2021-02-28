@@ -81,7 +81,7 @@ public class MailService {
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
         helper.setTo(user.getEmailAddress());
-        helper.setSubject("Testing Mail API with Attachment");
+        helper.setSubject("Testing Mail API with  Attachment");
         helper.setText("Please find the attached document below.");
 
 
